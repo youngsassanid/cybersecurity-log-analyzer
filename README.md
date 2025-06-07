@@ -2,8 +2,6 @@
 
 A powerful Python tool for detecting and visualizing brute force attacks from system authentication logs.
 
----
-
 ## Features
 
 * Parses Linux `auth.log` for failed login attempts
@@ -13,8 +11,6 @@ A powerful Python tool for detecting and visualizing brute force attacks from sy
 * Generates detailed text report (`attack_report.txt`)
 * Sends email alerts when attack thresholds are exceeded
 
----
-
 ## Requirements
 
 Install the required Python libraries:
@@ -23,15 +19,11 @@ Install the required Python libraries:
 pip install matplotlib geoip2
 ```
 
----
-
 ## GeoIP Location
 
 1. Sign up at [MaxMind](https://www.maxmind.com) for a free account.
 2. Download the **GeoLite2-City.mmdb** file.
 3. Place it in the project directory or update the `GEOIP_DB_PATH` in the script.
-
----
 
 ## Email Alerts
 
@@ -47,8 +39,6 @@ EMAIL_PASSWORD = 'your_app_password'
 EMAIL_RECEIVER = 'receiver_email@example.com'
 ```
 
----
-
 ## Usage
 
 ### Basic
@@ -62,8 +52,6 @@ python cybersecurity_log_analyzer.py /path/to/auth.log
 ```bash
 python cybersecurity_log_analyzer.py /path/to/auth.log --geoip
 ```
-
----
 
 ## Output
 
