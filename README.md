@@ -58,10 +58,3 @@ python cybersecurity_log_analyzer.py /path/to/auth.log --geoip
 * `brute_force_attempts.png`: Bar chart of top 10 IPs
 * `attack_report.txt`: Report with location, usernames, and timestamps
 * Email alert (optional): Sent if threshold is exceeded by an IP
-
-
----
-
-## 🌟 Star This Project
-
-If you found this useful, please give it a ⭐️ on GitHub!
